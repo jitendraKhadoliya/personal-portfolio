@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     z-index: var(--z-fixed);
-    background-color: var(--container-color);
+    background-color: var(--body-color);
 }
 .nav{
     height: calc(var(--header-height) + 1.5rem);
@@ -28,4 +28,96 @@
 .nav__link{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    font-size: var(--small-font-size);
+    color: var(--title-color);
+    font-weight: var(--font-medium);
+    transition: .3s;
+}
+
+.nav__icon,
+.nav__close,
+.nav__toggle{
+    display: none;
+}
+
+
+/* Active Link */
+.active-link,
+.nav__link:hover{
+    color: var(--title-color-dark);
+}
+
+/* ======== BREAKPOINTS =========== */
+/* for medium screen */
+@media screen and (max-width : 768px) {
+    .header{
+        top: initial;
+        bottom: 0;
+    }
+    .nav{
+        height: var(--header-height);
+    }
+    .nav__menu{
+        position: fixed;
+        width: 100%;
+        left: 0;
+        bottom: -100%;
+        background-color: var(--body-color);
+        padding: 2rem 1.5rem 4rem;
+        box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 1.5rem 1.5rem 0 0;
+        transition: .3s;
+    }
+
+    /* show menu */
+    .show-menu{
+        bottom: 0;
+    }
+
+    .nav__list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 2rem;
+    }
+
+    .nav__icon{
+        font-size: 1.2rem;
+    }
+
+    .nav__close{
+        position: absolute;
+        right: 1.3rem;
+        bottom: .5rem;
+        font-size: 1.5rem;
+        cursor: pointer;
+        color: var(--title-color);
+    }
+
+    .nav__close:hover{
+        color: var(--title-color-dark);
+    }
+
+    .nav__toggle{
+        font-size: 1.1rem;
+        cursor: pointer;
+    }
+
+    .nav__icon,
+    .nav__close,
+    .nav__toggle{
+        display: block;
+    }
+}
+
+/* for Small devices */
+@media screen and ( max-width: 350px) {
+    .nav__menu{
+        padding: 2rem 0.25rem 4rem;
+    }
+
+    .nav__list{
+        column-gap: 0;
+    }
+    
 }
