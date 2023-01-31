@@ -7,19 +7,19 @@ const Info = () => {
         <div className="about__box">
             <i className='bx bx-award about__icon'></i>
             <h3 className="about__title">Exprience</h3>
-            <spam className="about__subtitle">2 Years Working</spam>
+            <span className="about__subtitle">2 Years Working</span>
         </div>
         
         <div className="about__box">
             <i className='bx bx-briefcase-alt about__icon' ></i>
             <h3 className="about__title">Completed</h3>
-            <spam className="about__subtitle">10 + Projects</spam>
+            <span className="about__subtitle">10 + Projects</span>
         </div>
 
         <div className="about__box">
             <i className='bx bx-support about__icon' ></i>
             <h3 className="about__title">Support</h3>
-            <spam className="about__subtitle">Online 24/7</spam>
+            <span className="about__subtitle">Online 24/7</span>
         </div>
 
     </div>
