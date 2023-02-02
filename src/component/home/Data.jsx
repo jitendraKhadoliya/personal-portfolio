@@ -60,6 +60,7 @@ const Data = () => {
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quis alias
         nam aliquam saepe! Ab assumenda distinctio mollitia eum iure!
       </p>
+      
       <a href="#contact" className="button button--flex">
         Say Hello!
         <svg
