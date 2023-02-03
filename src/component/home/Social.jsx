@@ -12,8 +12,7 @@ const Social = () => {
       </a>
 
       <a href="https://github.com/jitendraKhadoliya" className="home__social-icon" target={"_blank"} rel="noreferrer">
-        <i className="uil uil-github-alt"  ></i>
-        
+        <i className="uil uil-github-alt"  ></i> 
       </a>
 
     </div>
