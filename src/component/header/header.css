@@ -47,6 +47,11 @@
 .nav__link:hover{
     color: var(--title-color-dark);
 }
+/* change background header  */
+.show-header{
+    border-radius: 0 0 2rem  2rem;
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.35);
+}
 
 /* ======== BREAKPOINTS =========== */
 /* for medium screen */

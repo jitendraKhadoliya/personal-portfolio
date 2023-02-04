@@ -5,7 +5,6 @@ const ScrollUp = () => {
   // show scroll
   window.addEventListener("scroll", function () {
     const scrollUp = document.querySelector(".scrollup");
-    // console.log(scrollUp);
     // when the scroll is higher then 560 view port high
     // it will add this class
     if (this.scrollY >= 560) {
