@@ -10,6 +10,7 @@ import Services from "./component/services/Services";
 import Skills from "./component/skills/Skills";
 import Testimonial from "./component/testimonials/Testimonial";
 import Work from "./component/work/Work";
+import { ToastContainer } from 'react-toastify';
 
 function App() {
   return (
@@ -27,7 +28,18 @@ function App() {
       </main>
         <ScrollUp />
         <Footer />
-        
+        <ToastContainer
+position="top-center"
+autoClose={300}
+hideProgressBar={false}
+newestOnTop={false}
+closeOnClick
+rtl={false}
+pauseOnFocusLoss
+draggable
+pauseOnHover
+theme="dark"
+/>
 
     </>
   );

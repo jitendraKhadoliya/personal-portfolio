@@ -10,8 +10,9 @@ export const projectsData = [
     {
       id: 1,
       image: Work1,
-      title: "Web design",
-      category: "all",
+      title: "Web design tis saoid",
+      category: "design",
+      link:'https://fkhadra.github.io/react-toastify/installation',
     },
     {
       id: 2,
@@ -29,19 +30,19 @@ export const projectsData = [
       id: 4,
       image: Work4,
       title: "App movil",
-      category: "small",
+      category: "Frontend",
     },
     {
       id: 5,
       image: Work5,
-      title: "Web design",
-      category: "web",
+      title: "E-Commerce",
+      category: "full stack",
     },
   ];
   
   export const projectNav = [
     {name: 'all'},
-    {name: 'major'},
-    {name: 'web'},
+    {name: 'full stack'},
+    {name: 'frontend'},
     {name: 'design'},
   ]

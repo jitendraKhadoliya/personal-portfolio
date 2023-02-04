@@ -108,6 +108,31 @@
     resize: none;
 } 
 
+/* ============ Loader Style==================== */
+
+.loading__container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Loading__icon{
+    animation: rotation 0.3s infinite ease-in-out;
+    font-size: 2rem;
+    color: white;
+    width: 200px;
+  }
+  
+  
+  
+  @keyframes rotation {
+    to{
+      transform: rotate(360deg);
+    }
+  }
+
 
 /*=============== BREAKPOINTS ===============*/
 /* For large devices */

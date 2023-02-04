@@ -1,21 +1,54 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import "./contact.css";
+import Loader from './Loader';
 
 const Contact = () => {
 
-    const form = useRef();
+  const [loading,setLoading] = useState(false);
+  const [disableBtn,setDisableBtn] = useState(false);
 
+    const form = useRef();
+    
     const sendEmail = (e) => {
+      setLoading(true);
+      // it will disable the button at loading time
+      setDisableBtn(true);
       e.preventDefault();
-  
+      
       emailjs.sendForm('service_vgvi3s5', 'template_3gdrzsh', form.current, 'ZYVzrbTkZi_tgdmnl')
-        .then((result) => {
+      .then((result) => {
+          toast('🦄 Thank you for mail, I will get back to you as soon as possible😊' , {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "light",
+            });
             e.target.reset();
+            setLoading(false);
+            setDisableBtn(false);
         }, (error) => {
-            console.log(error.text);
-        });
+          toast.warn(' oops! something went wrong', {
+            position: "top-center",
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: "colored",
+            });
+            setLoading(false);
+            setDisableBtn(false);
+      });
     };
+    
   
   return (
     <section className="contact section" id="contact">
@@ -84,6 +117,7 @@ const Contact = () => {
             <div className="contact__form-div">
               <label className="contact__form-tag">Name</label>
               <input
+                required
                 type="text"
                 name="user__name"
                 className="contact__form-input"
@@ -95,6 +129,7 @@ const Contact = () => {
               <label className="contact__form-tag">Mail</label>
               <input
                 type="email"
+                required
                 name="user__email"
                 className="contact__form-input"
                 placeholder="Insert Your Email"
@@ -104,6 +139,7 @@ const Contact = () => {
             <div className="contact__form-div contact__form-area">
               <label className="contact__form-tag">Project</label>
               <textarea
+                required
                 name="project"
                 cols="30"
                 rows="10"
@@ -112,8 +148,10 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            <button className="button button--flex" value={'send'} type={'submit'} >
-              Send Message
+            <button className="button button--flex" value={'send'} type={'submit'} disabled={disableBtn}>
+              {loading === true ? <Loader /> : (
+                <>
+                Send Message
               <svg
                 className="button__icon"
                 xmlns="http://www.w3.org/2000/svg"
@@ -131,12 +169,15 @@ const Contact = () => {
                   fill="var(--container-color)"
                 ></path>
               </svg>
+              </>
+               )}
             </button>
-
           </form>
         </div>
       </div>
+      <ToastContainer />
     </section>
+    
   );
 };
 
