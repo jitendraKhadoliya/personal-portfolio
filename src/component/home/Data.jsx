@@ -4,7 +4,7 @@ const Data = () => {
   return (
     <div className="home__data">
       <h1 className="home__title">
-        Jitendra Khaoliya
+        Jitendra Khadoliya
         <svg
           width="36"
           height="36"
@@ -57,10 +57,12 @@ const Data = () => {
       </h1>
       <h3 className="home__subtitle">Front End Developer</h3>
       <p className="home__description">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui quis alias
-        nam aliquam saepe! Ab assumenda distinctio mollitia eum iure!
+        With a strong foundation in web development and a thirst for knowledge,
+        I am ready to take on any coding challenge. Whether working solo or as
+        part of a team, I bring a passion for creativity and a drive to excel.
+        Let's connect and make something amazing happen!
       </p>
-      
+
       <a href="#contact" className="button button--flex">
         Say Hello!
         <svg
