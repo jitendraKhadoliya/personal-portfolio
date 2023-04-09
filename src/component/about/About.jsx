@@ -35,8 +35,12 @@ const About = () => {
             <span className="about__description-highlight">
               2 million+ revenue
             </span>
-            , managing my team, and communicating with company authorities and
-            clients. This role allowed me to develop my communication and{" "}
+            , managing my team, and communicating with company
+            <span className="about__description-highlight">
+              {" "}
+              authorities and clients
+            </span>
+            . This role allowed me to develop my communication and{" "}
             <span className="about__description-highlight">
               teamwork skills
             </span>
