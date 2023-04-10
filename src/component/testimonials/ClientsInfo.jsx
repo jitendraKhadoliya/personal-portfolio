@@ -30,6 +30,6 @@ export const ClientsInfo = [
     image: Image4,
     title: "Dinesh",
     description:
-      "He impressed me with their javaScript skills. he delivered high-quality work on time and within budget. I highly recommend jitendra to anyone looking for a talented react developer.",
+      "He turned my vision into a reality, creating a website that exceeded my expectations. he has deep expertise in javaScript and seamlessly integrated complex features.",
   },
 ];
