@@ -26,7 +26,7 @@ export const ClientsInfo = [
       "He impressed me with their javaScript skills. he delivered high-quality work on time and within budget. I highly recommend jitendra to anyone looking for a talented react developer.",
   },
   {
-    id: 3,
+    id: 4,
     image: Image4,
     title: "Dinesh",
     description:
