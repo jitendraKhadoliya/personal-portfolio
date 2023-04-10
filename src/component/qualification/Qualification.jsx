@@ -103,7 +103,7 @@ const Qualification = () => {
                 </span>
 
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - 2018
+                  <i className="uil uil-calender-alt"></i> 2021 - Present
                 </div>
               </div>
 
@@ -161,7 +161,7 @@ const Qualification = () => {
 
             {/* =============== Qualification 3 ============== */}
 
-            {/* <div className="qualification__data">
+            <div className="qualification__data">
               <div></div>
 
               <div>
@@ -170,13 +170,17 @@ const Qualification = () => {
               </div>
 
               <div>
-                <h3 className="qualification__title">Front End</h3>
-                <span className="qualification__subtitle">freelance</span>
+                <h3 className="qualification__title">
+                  Open Source Contribution
+                </h3>
+                <span className="qualification__subtitle">
+                  JavaScript - Github
+                </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
+                  <i className="uil uil-calender-alt"></i> 2023 - Present
                 </div>
               </div>
-            </div> */}
+            </div>
 
             {/* =============== Qualification 4 ============== */}
 
