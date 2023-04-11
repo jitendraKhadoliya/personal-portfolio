@@ -4,8 +4,16 @@ import Work3 from "../../assets/work3.png";
 import Work4 from "../../assets/work4.png";
 import Work5 from "../../assets/work5.png";
 import Work6 from "../../assets/work6.png";
+import Work7 from "../../assets/work7.gif";
 
 export const projectsData = [
+  {
+    id: 0,
+    gif: Work7,
+    title: "Dive Deep into My Code Base",
+    category: "all",
+    link: "https://github.com/jitendraKhadoliya",
+  },
   {
     id: 1,
     image: Work1,

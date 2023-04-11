@@ -3,7 +3,16 @@ import React from "react";
 const WorkItems = ({ item }) => {
   return (
     <div className="work__card" key={item.id}>
-      <img src={item.image} alt="project img" className="work__img" />
+      {item.image ? (
+        <img src={item.image} alt="project img" className="work__img" />
+      ) : (
+        <img
+          src={item.gif}
+          alt="project img"
+          className="work__img"
+          style={{ maxHeight: "225px" }}
+        />
+      )}
       <h3 className="work__title">{item.title}</h3>
       <a
         href={item.link}
