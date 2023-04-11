@@ -9,14 +9,14 @@ export const ClientsInfo = [
     image: Image1,
     title: "Adesh",
     description:
-      "Jitendra is an exceptional web developer. They delivered high-quality work on time and within budget. I highly recommend him to anyone looking for a skilled front end developer",
+      "Jitendra is an exceptional React developer. He delivered high-quality work on time and within budget. I highly recommend him to anyone looking for a skilled front end developer",
   },
   {
     id: 2,
     image: Image2,
     title: "Ankit",
     description:
-      "If you want a web developer who truly cares about your project, look no further than Jitendra. He was professional, responsive, and always went the extra mile to ensure success.",
+      "If you want a javaScript developer who truly cares about your project, look no further than Jitendra. He was professional, responsive, and always went the extra mile to ensure success.",
   },
   {
     id: 3,
