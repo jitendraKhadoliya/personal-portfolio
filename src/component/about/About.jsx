@@ -13,39 +13,20 @@ const About = () => {
         <img src={aboutImage} alt="aboutImg" className="about__img" />
         <div className="about__data">
           <Info />
+
           <p className="about__description">
-            I'm a{" "}
-            <span className="about__description-highlight">
-              frontend developer{" "}
-            </span>
-            with 1+ years of experience creating web pages with UI/UX user
-            interfaces . I have a proven track record of delivering high-quality
-            projects that meet client needs. I've also made
-            <span className="about__description-highlight">
-              {" "}
-              open source contributions{" "}
-            </span>
-            to projects, expanding my skill set and staying up-to-date with
-            industry standards Additionally, I have experience as a
-            <span className="about__description-highlight">
-              {" "}
-              Distribution Executive
-            </span>
-            , generating{" "}
-            <span className="about__description-highlight">
-              2 million+ revenue
-            </span>
-            , managing my team, and communicating with company
-            <span className="about__description-highlight">
-              {" "}
-              authorities and clients
-            </span>
-            . This role allowed me to develop my communication and{" "}
-            <span className="about__description-highlight">
-              teamwork skills
-            </span>
-            , and gain insight into the sales and communication industry.
+            With over <span className="about__description-highlight">2+ years of experience</span>, I specialize in crafting <span className="about__description-highlight">enterprise-level web applications</span> with a focus on <span className="about__description-highlight">exceptional user experiences</span>. Leveraging technologies like <span className="about__description-highlight">React.js, Next.js</span> and <span className="about__description-highlight">Tailwind CSS</span>, I excel in writing <span className="about__description-highlight">meticulously structured code</span> and implementing <span className="about__description-highlight">CI/CD pipelines</span> for seamless project delivery.
+
+            My expertise in <span className="about__description-highlight">logical problem-solving</span> allows me to streamline complex challenges into elegant solutions. From developing a <span className="about__description-highlight">blockchain wallet app</span> to a complete <span className="about__description-highlight">payroll system</span>, I deliver scalable solutions that exceed expectations.
+
+            Grounded in a strong focus on <span className="about__description-highlight">UI/UX design</span> and clear <span className="about__description-highlight">communication</span>, I'm committed to creating digital experiences that resonate with users. Let's collaborate to bring your vision to life.
           </p>
+
+
+
+
+
+
           <a download="" href={cv} className="button button--flex">
             Download CV
             <svg
