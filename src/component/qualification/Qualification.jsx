@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./qualification.css";
 
 const Qualification = () => {
-  const [toggleState, setToggleState] = useState(1);
+  const [toggleState, setToggleState] = useState(2);
 
   const toggleTab = (index) => {
     setToggleState(index);
@@ -52,6 +52,55 @@ const Qualification = () => {
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">
+                  B K Birla Institute of Engineering & Technology
+                </h3>
+                <span className="qualification__subtitle">
+                  computer science and engineering - Institute
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i> 2016 - 2020
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+
+
+
+            {/* =============== Qualification 2 ============== */}
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Learning by doing, creating by learning
+                  {/* B K Birla Institute of Engineering & Technology */}
+                </h3>
+                <span className="qualification__subtitle">
+                  Web development - Online + Institute
+                  {/* computer science and engineering - Institute */}
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i> 2018 - Present
+                </div>
+              </div>
+            </div>
+
+            {/* =============== Qualification 3 ============== */}
+
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
                   Parishkar Children Academy sr. sec. school
                 </h3>
                 <span className="qualification__subtitle">
@@ -68,51 +117,6 @@ const Qualification = () => {
               </div>
             </div>
 
-            {/* =============== Qualification 2 ============== */}
-
-            <div className="qualification__data">
-              <div></div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-
-              <div>
-                <h3 className="qualification__title">
-                  B K Birla Institute of Engineering & Technology
-                </h3>
-                <span className="qualification__subtitle">
-                  computer science and engineering - Institute
-                </span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2016 - 2020
-                </div>
-              </div>
-            </div>
-
-            {/* =============== Qualification 3 ============== */}
-
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">
-                  Learning by doing, creating by learning
-                </h3>
-                <span className="qualification__subtitle">
-                  Web development - Online + Institute
-                </span>
-
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2018 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"> </span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
             {/* =============== Qualification 4 For Future ============== */}
           </div>
 
@@ -125,41 +129,11 @@ const Qualification = () => {
                 : "qualification__content"
             }
           >
-            {/* =============== Qualification 1 ============== */}
-            <div className="qualification__data">
-              <div></div>
 
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
+            {/* =============== Qualification For Future ============== */}
 
-              <div>
-                <h3 className="qualification__title">Distribution Executive</h3>
-                <span className="qualification__subtitle">Volc - EV Brand</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - 2022
-                </div>
-              </div>
-            </div>
+            {/* =============== Qualification 6 ============== */}
 
-            {/* =============== Qualification 2 ============== */}
-            <div className="qualification__data">
-              <div>
-                <h3 className="qualification__title">Gig work</h3>
-                <span className="qualification__subtitle">Web-developer</span>
-                <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - Present
-                </div>
-              </div>
-
-              <div>
-                <span className="qualification__rounder"></span>
-                <span className="qualification__line"></span>
-              </div>
-            </div>
-
-            {/* =============== Qualification 3 ============== */}
 
             <div className="qualification__data">
               <div></div>
@@ -171,25 +145,26 @@ const Qualification = () => {
 
               <div>
                 <h3 className="qualification__title">
-                  Open Source Contribution
+                  React JS Developer
                 </h3>
                 <span className="qualification__subtitle">
-                  JavaScript - Github
+                  Fiducia Services Pvt. Ltd. · Full-time , Mohali . India
                 </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2023 - Present
+                  <i className="uil uil-calender-alt"></i>  Jul 2023 - Present
                 </div>
               </div>
             </div>
 
-            {/* =============== Qualification 4 ============== */}
 
-            {/* <div className="qualification__data">
+            {/* =============== Qualification 5 ============== */}
+
+            <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Web Desiner</h3>
-                <span className="qualification__subtitle">Figma-India </span>
+                <h3 className="qualification__title">Software Engineer </h3>
+                <span className="qualification__subtitle">Hexfork · Full-time Birmingham, England, United Kingdom · Remote </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> 2021 - 2018
+                  <i className="uil uil-calender-alt"></i> Jan 2023 - Jul 2023
                 </div>
               </div>
 
@@ -197,7 +172,103 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div> */}
+            </div>
+
+
+            {/* =============== Qualification 4 ============== */}
+
+
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  ENTREPRENEURIAL VENTURE PARTNER </h3>
+                <span className="qualification__subtitle">Volc - EV Brand</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i> Sep 2021 - Jul 2022
+                </div>
+              </div>
+            </div>
+
+            {/* =============== Qualification 3 ============== */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">Open Source Contributions, Gig work</h3>
+                <span className="qualification__subtitle">Web App JavaScript Related Mostly </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i> 2021 - Present
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+
+
+            {/* =============== Qualification 2 ============== */}
+
+            <div className="qualification__data">
+              <div></div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+
+              <div>
+                <h3 className="qualification__title">
+                  Java training program
+                </h3>
+                <span className="qualification__subtitle">
+                  APTRON SOLUTIONS PVT LTD · Internship
+                </span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i> Jun 2019 - Jul 2019
+                </div>
+              </div>
+            </div>
+
+
+            {/* =============== Qualification 1 ============== */}
+            <div className="qualification__data">
+              <div>
+                <h3 className="qualification__title">
+                  Python, IoT and Raspberry Pi, Machine Learning and Django</h3>
+                <span className="qualification__subtitle">TechieNest · Apprenticeship</span>
+                <div className="qualification__calender">
+                  <i className="uil uil-calender-alt"></i> Sep 2018 - Nov 2018
+                </div>
+              </div>
+
+              <div>
+                <span className="qualification__rounder"></span>
+                <span className="qualification__line"></span>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
           </div>
         </div>
       </div>

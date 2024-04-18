@@ -10,8 +10,8 @@ const FrontEnd = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">HTML</h3>
-              <span className="skills__level">Advance</span>
+              <h3 className="skills__name"> React </h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
@@ -22,7 +22,42 @@ const FrontEnd = () => {
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Redux</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Formik</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Yup</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
 
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Bootstrap</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Chart.js</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
@@ -42,26 +77,14 @@ const FrontEnd = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">SASS</h3>
+              <h3 className="skills__name">SCSS/SASS</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Redux</h3>
-              <span className="skills__level">Intermediate</span>
-            </div>
-          </div>
 
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">CI/CD Pipeline</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
+
+
 
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
@@ -71,15 +94,34 @@ const FrontEnd = () => {
             </div>
           </div>
 
+
+        </div>
+
+
+        {/* Right Side */}
+        <div className="skills__group">
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">React-Responsive-Carousel</h3>
-              <span className="skills__level">Basic</span>
+              <h3 className="skills__name">Next.js</h3>
+              <span className="skills__level">Intermediate</span>
             </div>
           </div>
-        </div>
-        <div className="skills__group">
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">Redux.js</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">ApexCharts</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
@@ -91,8 +133,9 @@ const FrontEnd = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name"> React </h3>
-              <span className="skills__level">Intermediate</span>
+
+              <h3 className="skills__name">HTML</h3>
+              <span className="skills__level">Advance</span>
             </div>
           </div>
 
@@ -100,6 +143,13 @@ const FrontEnd = () => {
             <i className="bx bx-badge-check"></i>
             <div>
               <h3 className="skills__name">Git</h3>
+              <span className="skills__level">Intermediate</span>
+            </div>
+          </div>
+          <div className="skills__data">
+            <i className="bx bx-badge-check"></i>
+            <div>
+              <h3 className="skills__name">React-DnD</h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
@@ -131,26 +181,14 @@ const FrontEnd = () => {
           <div className="skills__data">
             <i className="bx bx-badge-check"></i>
             <div>
-              <h3 className="skills__name">Tailwind-CSS </h3>
+              <h3 className="skills__name">Tailwind </h3>
               <span className="skills__level">Intermediate</span>
             </div>
           </div>
 
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">Jenkins</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
 
-          <div className="skills__data">
-            <i className="bx bx-badge-check"></i>
-            <div>
-              <h3 className="skills__name">React-farmer-motion</h3>
-              <span className="skills__level">Basic</span>
-            </div>
-          </div>
+
+
         </div>
       </div>
     </div>
