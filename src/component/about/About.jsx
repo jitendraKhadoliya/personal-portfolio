@@ -15,17 +15,56 @@ const About = () => {
           <Info />
 
           <p className="about__description">
-            With over <span className="about__description-highlight">2+ years of experience</span>, I specialize in crafting <span className="about__description-highlight">enterprise-level web applications</span> with a focus on <span className="about__description-highlight">exceptional user experiences</span>. Leveraging technologies like <span className="about__description-highlight">React.js, Next.js</span> and <span className="about__description-highlight">Tailwind CSS</span>, I excel in writing <span className="about__description-highlight">meticulously structured code</span> and implementing <span className="about__description-highlight">CI/CD pipelines</span> for seamless project delivery.
-
-            My expertise in <span className="about__description-highlight">logical problem-solving</span> allows me to streamline complex challenges into elegant solutions. From developing a <span className="about__description-highlight">blockchain wallet app</span> to a complete <span className="about__description-highlight">payroll system</span>, I deliver scalable solutions that exceed expectations.
-
-            Grounded in a strong focus on <span className="about__description-highlight">UI/UX design</span> and clear <span className="about__description-highlight">communication</span>, I'm committed to creating digital experiences that resonate with users. Let's collaborate to bring your vision to life.
+            With over{" "}
+            <span className="about__description-highlight">
+              2+ years of experience
+            </span>
+            , I specialize in crafting{" "}
+            <span className="about__description-highlight">
+              enterprise-level web applications
+            </span>{" "}
+            with a focus on{" "}
+            <span className="about__description-highlight">
+              exceptional user experiences
+            </span>
+            . Leveraging technologies like{" "}
+            <span className="about__description-highlight">
+              JavaScript, TypeScript, React.js, Next.js
+            </span>
+            , and{" "}
+            <span className="about__description-highlight">
+              Bootstrap, Tailwind CSS
+            </span>
+            , I excel in writing{" "}
+            <span className="about__description-highlight">
+              meticulously structured code
+            </span>{" "}
+            and implementing{" "}
+            <span className="about__description-highlight">
+              CI/CD pipelines
+            </span>{" "}
+            for seamless project delivery. My expertise in{" "}
+            <span className="about__description-highlight">
+              logical problem-solving
+            </span>{" "}
+            allows me to streamline complex challenges into elegant solutions.
+            From developing a{" "}
+            <span className="about__description-highlight">
+              blockchain wallet app
+            </span>{" "}
+            to a complete{" "}
+            <span className="about__description-highlight">payroll system</span>
+            , I deliver scalable solutions that exceed expectations. I have also
+            created{" "}
+            <span className="about__description-highlight">SaaS software</span>{" "}
+            that is live and actively used by users, providing real-time
+            solutions that drive productivity. Grounded in a strong focus on{" "}
+            <span className="about__description-highlight">UI/UX design</span>{" "}
+            and clear{" "}
+            <span className="about__description-highlight">communication</span>,
+            I'm committed to creating digital experiences that resonate with
+            users. Let's collaborate to bring your vision to life.
           </p>
-
-
-
-
-
 
           <a download="" href={cv} className="button button--flex">
             Download CV

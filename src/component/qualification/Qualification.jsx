@@ -164,7 +164,7 @@ const Qualification = () => {
                 <h3 className="qualification__title">Software Engineer </h3>
                 <span className="qualification__subtitle">Hexfork · Full-time Birmingham, England, United Kingdom · Remote </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> Jan 2023 - Jul 2023
+                  <i className="uil uil-calender-alt"></i> Feb 2023 - Jul 2023
                 </div>
               </div>
 
