@@ -17,7 +17,7 @@ const About = () => {
           <p className="about__description">
             With over{" "}
             <span className="about__description-highlight">
-              2+ years of experience
+              2.5+ years of experience
             </span>
             , I specialize in crafting{" "}
             <span className="about__description-highlight">
@@ -53,7 +53,7 @@ const About = () => {
               blockchain wallet app
             </span>{" "}
             to a complete{" "}
-            <span className="about__description-highlight">payroll system</span>
+            <span className="about__description-highlight">payroll system & Forecourt Management System</span>
             , I deliver scalable solutions that exceed expectations. I have also
             created{" "}
             <span className="about__description-highlight">SaaS software</span>{" "}
