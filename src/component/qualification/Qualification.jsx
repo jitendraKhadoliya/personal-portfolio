@@ -148,7 +148,7 @@ const Qualification = () => {
                   React JS Developer
                 </h3>
                 <span className="qualification__subtitle">
-                  Fiducia Services Pvt. Ltd. · Full-time , Mohali . India
+                  Fiducia Services Pvt. Ltd. · Full-time , Mohali, Punjab
                 </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i>  Jul 2023 - Present
@@ -161,10 +161,10 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Software Engineer </h3>
-                <span className="qualification__subtitle">Hexfork · Full-time Birmingham, England, United Kingdom · Remote </span>
+                <h3 className="qualification__title">Front End Developer</h3>
+                <span className="qualification__subtitle">MakersNCoders Pvt. Ltd. · Full-time Mohali, Punjab </span>
                 <div className="qualification__calender">
-                  <i className="uil uil-calender-alt"></i> Feb 2023 - Jul 2023
+                  <i className="uil uil-calender-alt"></i> Dec 2021 - Jul 2023
                 </div>
               </div>
 
@@ -179,7 +179,7 @@ const Qualification = () => {
 
 
 
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div></div>
 
               <div>
@@ -195,10 +195,10 @@ const Qualification = () => {
                   <i className="uil uil-calender-alt"></i> Sep 2021 - Jul 2022
                 </div>
               </div>
-            </div>
+            </div> */}
 
             {/* =============== Qualification 3 ============== */}
-            <div className="qualification__data">
+            {/* <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Open Source Contributions, Gig work</h3>
                 <span className="qualification__subtitle">Web App JavaScript Related Mostly </span>
@@ -211,7 +211,7 @@ const Qualification = () => {
                 <span className="qualification__rounder"></span>
                 <span className="qualification__line"></span>
               </div>
-            </div>
+            </div> */}
 
 
 
@@ -244,7 +244,7 @@ const Qualification = () => {
               <div>
                 <h3 className="qualification__title">
                   Python, IoT and Raspberry Pi, Machine Learning and Django</h3>
-                <span className="qualification__subtitle">TechieNest · Apprenticeship</span>
+                <span className="qualification__subtitle">TechieNest · Training</span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i> Sep 2018 - Nov 2018
                 </div>

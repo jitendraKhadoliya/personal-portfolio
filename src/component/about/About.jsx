@@ -17,7 +17,7 @@ const About = () => {
           <p className="about__description">
             With over{" "}
             <span className="about__description-highlight">
-              2.5+ years of experience
+              3.5+ years of experience
             </span>
             , I specialize in crafting{" "}
             <span className="about__description-highlight">
