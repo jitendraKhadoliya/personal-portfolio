@@ -159,6 +159,8 @@ const Qualification = () => {
 
             {/* =============== Qualification 5 ============== */}
 
+            
+
             <div className="qualification__data">
               <div>
                 <h3 className="qualification__title">Front End Developer</h3>
