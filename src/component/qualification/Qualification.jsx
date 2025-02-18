@@ -161,7 +161,7 @@ const Qualification = () => {
 
             <div className="qualification__data">
               <div>
-                <h3 className="qualification__title">Software Engineer </h3>
+                <h3 className="qualification__title">Front End Developer</h3>
                 <span className="qualification__subtitle">MakersNCoders Pvt. Ltd. · Full-time Mohali, Punjab </span>
                 <div className="qualification__calender">
                   <i className="uil uil-calender-alt"></i> Dec 2021 - Jul 2023
